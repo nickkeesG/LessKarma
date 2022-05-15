@@ -10,4 +10,5 @@ while True:
 
     screen = pygame.display.set_mode(size)
     screen.fill(black)
+    pygame.draw.circle(screen, (255, 0, 0), (100, 100), 20)
     pygame.display.flip()
